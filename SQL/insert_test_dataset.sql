@@ -49,7 +49,7 @@ INSERT INTO yogood_tst.volumes (volume_ml) VALUES (250), (450);
 
 -- Статусы заказов
 INSERT INTO yogood_tst.order_statuses (name) VALUES
-('Новый'), ('В работе'), ('Готов'), ('Доставка'), ('Завершен');
+('Новый'), ('В работе'), ('Готов'), ('Доставка'), ('Завершен'),('Отменен');
 
 -- Причины отмены
 INSERT INTO yogood_tst.cancellation_reasons (reason, comment) VALUES
